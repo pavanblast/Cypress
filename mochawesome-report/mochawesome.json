@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-11-07T14:25:36.625Z",
+    "end": "2024-11-07T14:25:46.219Z",
+    "duration": 9594,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "eb26c49f-486b-48e1-bbc7-457eb54387ae",
+      "title": "",
+      "fullFile": "cypress\\e2e\\spec1.cy.js",
+      "file": "cypress\\e2e\\spec1.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ae7ca009-1dff-4417-b66c-614e833edecf",
+          "title": "search facebook in google",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "I launched google and searched facebook.",
+              "fullTitle": "search facebook in google I launched google and searched facebook.",
+              "timedOut": null,
+              "duration": 6666,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.google.co.in');\ncy.xpath('//*[@id=\"APjFqb\"]').type(\"Facebook{enter}\");",
+              "err": {},
+              "uuid": "7f3b23b6-868a-4b88-bc8c-cae3cb7c7c21",
+              "parentUUID": "ae7ca009-1dff-4417-b66c-614e833edecf",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7f3b23b6-868a-4b88-bc8c-cae3cb7c7c21"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6666,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
